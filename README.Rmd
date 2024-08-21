@@ -53,16 +53,10 @@ resistance_indicator_map <- draw_map(resistance_indicator, geo_shapes,
   "Resistance map")
 vaccination_rate_time_plot <- line_plot_time(vaccination_rate_indicator, 
   "Vaccination rates")
-# UHC_service_coverage_time_plot <- .
-# health_staff_indicator_time_plot <- .
-# health_staff_vaccination_rate_scatter_plot <- draw_gho_scatter_plot(
-#   health_staff_indicator,
-#   vaccination_rate_indicator
-# )
 ```
 
 
-```{r example}
+```{r}
 resistance_indicator_map
 ```
 
