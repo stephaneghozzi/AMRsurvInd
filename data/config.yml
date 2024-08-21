@@ -1,0 +1,20 @@
+---
+data_source_list: ["EURO", "GHO", "IHME"]
+
+API_accessible:
+  EURO: false
+  GHO: true
+  IHME: false
+
+download_from_API: false
+
+gho_api: "https://ghoapi.azureedge.net/api/"
+gho_indicators: ["HWF_0001", "HWF_0006", "PCV3", "UHC_SCI_INFECT", "WHS4_129"]
+
+data_directories:
+  EURO: "../AMR-raw-data/EURO"
+  GHO: "../AMR-raw-data/GHO"
+  IHME: "../AMR-raw-data/IHME"
+
+shape_file: "data/Detailed_Boundary_ADM0_7691616017328378072.geojson"
+---

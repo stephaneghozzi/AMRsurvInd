@@ -1,0 +1,14 @@
+compute_UHC_service_coverage_indicator <- function(raw_data) {
+
+  indicator <- raw_data$GHO |>
+    dplyr::select(IndicatorCode, SpatialDim, ParentLocation, TimeDim, NumericValue) |>
+    dplyr::filter(IndicatorCode == "UHC_SCI_INFECT") |>
+    dplyr::rename(
+      country_code = SpatialDim,
+      year = TimeDim,
+      value = NumericValue
+    )
+
+  return(indicator)
+
+}
