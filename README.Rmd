@@ -34,7 +34,6 @@ Or download the package files (this repository) and install from source:
 install.packages(path_to_this_folder, repos = NULL, type = "source")
 ```
 
-
 ## Example
 
 ```{r example}
