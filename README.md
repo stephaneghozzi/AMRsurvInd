@@ -14,7 +14,13 @@ indicators.
 You can install the development version of AMRsurvInd like so:
 
 ``` r
-# to be added
+devtools::install_github("stephaneghozzi/AMRsurvInd")
+```
+
+Or download the package files (this repository) and install from source:
+
+``` r
+install.packages(path_to_this_folder, repos = NULL, type = "source")
 ```
 
 ## Example
