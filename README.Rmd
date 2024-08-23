@@ -61,7 +61,6 @@ vaccination_rate_time_plot <- draw_line_plot_time(vaccination_rate_indicator,
   "Vaccination rates")
 ```
 
-
 ```{r}
 resistance_indicator_map
 ```
