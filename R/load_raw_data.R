@@ -9,7 +9,6 @@
 #' @param gho_api GHO API address.
 #'
 #' @return A list of data frames.
-#' @import dplyr jsonlite tibble
 #' @export
 #'
 #' @examples

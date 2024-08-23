@@ -2,7 +2,7 @@ Package: AMRsurvInd
 Title: Compute and Visualize AMR Surveillance Indicators
 Version: 0.0.0.9000
 Authors@R: 
-    person("Stéphane", "Ghozzi", , "sghozzi@who.int", role = c("aut", "cre"),
+    person("Stéphane", "Ghozzi", , "hello@stephaneghozzi.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-3911-9573"))
 Description: AMRsurvInd allows one to load from file and/or download raw AMR surviellance data, process them to compute AMR indicators, present them in tables and visualize them in maps and graphs. Statistical modelling is used to detect trends and anomalies, and to make short-term forecasts.
 License: MIT + file LICENSE

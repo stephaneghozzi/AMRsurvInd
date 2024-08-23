@@ -1,6 +1,9 @@
-# indicator <- resistance_indicator
-# plot_title <- "Resistance map"
-
+#' Draws a map of the indicator chosen for the last year data are available.
+#'
+#' @param indicator A data frame. The indicator to be plotted: the variable plotted has to be named `value`, the time variable is `year`, the regions are `region_code_iso3`.
+#' @param plot_title A string. The title of the plot.
+#' @returns A ggplot object.
+#' @export
 draw_map <- function(indicator, geo_shapes, plot_title) {
 
   geo_shapes_indicator <- geo_shapes |>

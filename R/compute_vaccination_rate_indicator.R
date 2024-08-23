@@ -1,3 +1,11 @@
+#' Computes the vaccination rate indicator based on raw AMR surveillance data
+#'
+#' The indicator is defined as the maximum of the GHO indicators PCV3 and
+#' WHS4_129, with a few variables renamed for coherence across indicators.
+#'
+#' @param raw_data A list of data frames.
+#' @returns A data frame.
+#' @export
 compute_vaccination_rate_indicator <- function(raw_data) {
 
   indicator <- raw_data$GHO |>

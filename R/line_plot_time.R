@@ -1,6 +1,10 @@
-# indicator <- vaccination_rate_indicator
-# plot_title <- "Vccination rates"
-line_plot_time <- function(indicator, plot_title) {
+#' Draws a line plot of the indicator against time
+#'
+#' @param indicator A data frame. The indicator to be plotted: the variable plotted has to be named `value`, the time variable is `year`.
+#' @param plot_title A string. The title of the plot.
+#' @returns A ggplot object.
+#' @export
+draw_line_plot_time <- function(indicator, plot_title) {
 
   ggplot2::ggplot(
       indicator |> dplyr::filter(ParentLocation == "Europe"),

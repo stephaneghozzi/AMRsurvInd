@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of AMRsurvInd is to  Compute and Visualize AMR surveillance indicators.
+The goal of AMRsurvInd is to compute and visualize AMR surveillance indicators.
 
 ## Installation
 
@@ -51,7 +51,7 @@ health_staff_indicator <- compute_health_staff_indicator(raw_data)
 # Plots
 resistance_indicator_map <- draw_map(resistance_indicator, geo_shapes, 
   "Resistance map")
-vaccination_rate_time_plot <- line_plot_time(vaccination_rate_indicator, 
+vaccination_rate_time_plot <- draw_line_plot_time(vaccination_rate_indicator, 
   "Vaccination rates")
 ```
 
